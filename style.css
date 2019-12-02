@@ -1,0 +1,58 @@
+body{
+    display: block;
+    background-image: url("http://www.graciaviva.cat/png/big/6/63886_purple-background-texture.jpg");
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
+
+form .txt{
+    border-radius: 5px;
+    padding: 15px 70px;
+    background-color: #2E2C3D;
+    color: white;
+    font-size: large;
+    text-align: left;
+}
+
+form #btn{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+
+form #btn .send{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px 163px;
+    background-color: #2E2C3D;
+}
+
+form #btn .reset{
+    margin-top: 20px;
+    background-color: #2E2C3D;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px 163px;
+}
+
+form #btn .send:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    position: relative;
+    bottom:5px;
+}
+
+form #btn .reset:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    position: relative;
+    bottom:5px;
+}
